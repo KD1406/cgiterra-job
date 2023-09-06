@@ -4,7 +4,7 @@ resource "aws_instance" "kd-instance" {
     count = 1
 
     tags ={
-        name  = "kd-vm-1"
+        name  = "kd-vm-2"
     }    
 
 }
